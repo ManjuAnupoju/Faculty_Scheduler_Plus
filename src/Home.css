@@ -1,0 +1,40 @@
+/*.app {
+    position: relative;
+    width: 100%; /* Set width according to your design */
+   /* height: 100%; /* Set height according to your design */
+/*}
+.app::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set width according to your design */
+    /*height: 100%; /* Set height according to your design */
+    /*background-image: url('./images/lib.jpg'); /* Set your background image path */
+    /*background-size: cover; /* Adjust background size according to your design */ /* Set opacity to 0 */
+    /*z-index: -1; /* Push the background behind other content */
+    /*inset: 0; /* Set the inset to 0 to cover the entire container */
+/*}*/
+.app1{
+    /* background: url('./images/R.jpg'); */
+    /* background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,0.5),url("./images/back.jpg.crdownload")); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    min-height: 100vh;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.bg-home{
+   position: absolute;
+   inset: 0; 
+ 
+}
+
+.home-image{
+    opacity: 10;
+}

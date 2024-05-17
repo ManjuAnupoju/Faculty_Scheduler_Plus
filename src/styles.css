@@ -1,0 +1,46 @@
+/* styles.css -->This css is for Signin.jsx*/
+
+.custom-signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* styles.css */
+.Toastify__toast-body {
+    font-size: 16px; /* Adjust the font size as per your preference */
+}
+
+.custom-signin-box {
+    background-color: #ffffff; /* white background */
+    padding: 20px;
+    border: 2px solid  #578ec8; /* blue border */
+    border-radius: 5px;
+    width: 25%;
+}
+
+.custom-input-container {
+    margin-bottom: 15px;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da; /* grey border */
+    border-radius: 3px;
+}
+
+.custom-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* green button */
+    color: #ffffff; /* white text */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #218838; /* dark green on hover */
+}

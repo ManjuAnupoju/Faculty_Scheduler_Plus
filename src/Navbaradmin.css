@@ -1,0 +1,37 @@
+/* Navbaradmin.css */
+.navbar-admin {
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the viewport */
+    background-color: #378CE7;
+    display: flex;
+    justify-content: space-between; /* Items spread across the width */
+    align-items: center; /* Vertically center the items */
+    padding: 10px; /* Add some padding for spacing */
+    width: 97vw; /* Make the width full */
+    margin: 0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for list items */
+}
+
+.navbar-list li {
+    margin-right: 10px;
+}
+
+.forHome {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-list li a {
+    color: white; /* Set font color to white */
+    text-decoration: none;
+}
+
+.navbar-list li:last-child {
+    margin-right: 0;
+}
